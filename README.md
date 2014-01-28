@@ -1,6 +1,6 @@
 # SDColor
 
-Dead simple connivence categories for UIColor.
+Dead simple convenience categories for UIColor.
 
 ### Installation with CocoaPods
 
