@@ -7,6 +7,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/steam/SDColor.git', :tag => "#{spec.version}" }
   spec.description  = 'Use hexidecimal values to create UIColor objects.'
   spec.source_files = 'SDColor/*.{h,m}'
+  spec.frameworks   = 'UIKit'
   spec.requires_arc = false
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 end
