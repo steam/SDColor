@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'SDColor'
-  spec.version      = '0.1'
+  spec.version      = '0.1.0'
   spec.summary      = 'Dead simple connivence categories for UIColor.'
   spec.homepage     = 'https://github.com/steam/SDColor'
   spec.author       = { 'Sean Dougherty' => 'sean@process255.com' }
