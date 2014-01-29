@@ -24,3 +24,5 @@ pod "SDColor", "~> 0.1"
 ```objective-c
 [UIColor hex:0xFFFF00 alpha:0.5];
 ```
+
+[![Build Status](https://travis-ci.org/steam/SDColor.png?branch=master)](https://travis-ci.org/steam/SDColor)
