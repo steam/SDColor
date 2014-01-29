@@ -1,5 +1,7 @@
 # SDColor
 
+[![Build Status](https://travis-ci.org/steam/SDColor.png?branch=master)](https://travis-ci.org/steam/SDColor)
+
 Dead simple convenience categories for UIColor.
 
 ### Installation with CocoaPods
@@ -25,4 +27,3 @@ pod "SDColor", "~> 0.1"
 [UIColor hex:0xFFFF00 alpha:0.5];
 ```
 
-[![Build Status](https://travis-ci.org/steam/SDColor.png?branch=master)](https://travis-ci.org/steam/SDColor)
