@@ -1,2 +1,2 @@
 language: objective-c
-script: xctool -project SDColor.xcodeproj -scheme SDColor -sdk iphonesimulator build test ONLY_ACTIVE_ARCH=NO
+script: xctool -project SDColor.xcodeproj -scheme SDColor -sdk iphonesimulator7.0 build test -freshInstall -freshSimulator ONLY_ACTIVE_ARCH=NO
