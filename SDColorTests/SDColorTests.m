@@ -60,6 +60,18 @@ CGFloat red,green,blue,alpha;\
     XCTAssertEqualWithAccuracy(alpha, 1.0f, ACCURACY, @"");
 }
 
+- (void)test25PercentCyan
+{
+    UIColor *color = [UIColor hex:0x00ffff alpha:0.25];
+
+    SPLIT_RESULT_TO_RGBA
+
+    XCTAssertEqualWithAccuracy(red, 0.0f, ACCURACY, @"");
+    XCTAssertEqualWithAccuracy(green, 1.0f, ACCURACY, @"");
+    XCTAssertEqualWithAccuracy(blue, 1.0f, ACCURACY, @"");
+    XCTAssertEqualWithAccuracy(alpha, 0.25f, ACCURACY, @"");
+}
+
 - (void)testMagenta
 {
     UIColor *color = [UIColor hex:0xff00ff];
